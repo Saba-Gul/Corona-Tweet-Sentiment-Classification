@@ -1,5 +1,5 @@
 # Corona Tweet Sentiment Classification
-
+![Tweet sentiment analysis](images/sent.png)
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
@@ -16,9 +16,13 @@ The Corona Tweet Sentiment Classification project aims to classify tweets relate
 - 2: Extremely Positive
 - -2: Extremely Negative
 - -1: Negative
+  
+![tweet distribution](images/dist.png)
 
 ## Dataset
 The dataset contains tweets related to COVID-19 along with their corresponding sentiment labels. The tweets have been cleaned and preprocessed to remove unwanted characters, URLs, punctuation, and stop words. The dataset is split into training and testing sets for model evaluation. [COVID-19 NLP Text Classification Dataset](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification/data)
+
+![word cloud](images/wcloud.png)
 
 ## Preprocessing Steps
 1. **Text Cleaning:** Removing URLs, punctuations, and other unwanted characters.
@@ -68,7 +72,7 @@ The performance of the models using different feature extraction techniques is s
 - F1 Score: Varies across classes
 
 #### Ensemble Voting Classifier:
-- Accuracy: 0.6057
+- Accuracy: 0.6259 
 - Precision: Varies across classes
 - Recall: Varies across classes
 - F1 Score: Varies across classes
