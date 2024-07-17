@@ -1,13 +1,18 @@
 # Corona Tweet Sentiment Classification
-![Tweet sentiment analysis](images/sent.png)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Preprocessing](#preprocessing)
-- [Models](#models)
+- [Preprocessing Steps](#preprocessing-steps)
+- [Models and Techniques](#models-and-techniques)
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Conclusion](#conclusion)
+
+<div style="text-align:center">
+    <img src="images/sent.jpeg" style="display:block; margin:auto;" />
+</div>  
+<div style="text-align:center">
 
 ## Introduction
 The Corona Tweet Sentiment Classification project aims to classify tweets related to COVID-19 into five sentiment categories:
@@ -17,12 +22,19 @@ The Corona Tweet Sentiment Classification project aims to classify tweets relate
 - -2: Extremely Negative
 - -1: Negative
   
-![tweet distribution](images/dist.png)
-
 ## Dataset
 The dataset contains tweets related to COVID-19 along with their corresponding sentiment labels. The tweets have been cleaned and preprocessed to remove unwanted characters, URLs, punctuation, and stop words. The dataset is split into training and testing sets for model evaluation. [COVID-19 NLP Text Classification Dataset](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification/data)
 
-![word cloud](images/wcloud.png)
+  
+<div style="text-align:center">
+<div style="text-align: right;">
+    <img src="images/wcloud.png" alt="Sentiment Analysis" width="800"/>
+</div>
+
+<div style="text-align:center">
+    <img src="images/dist.png" style="display:block; margin:auto;" />
+</div>  
+<div style="text-align:center">
 
 ## Preprocessing Steps
 1. **Text Cleaning:** Removing URLs, punctuations, and other unwanted characters.
